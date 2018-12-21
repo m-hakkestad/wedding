@@ -1,0 +1,15 @@
+@import 'vars';
+
+body{
+    background-color: $darker;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}

@@ -1,0 +1,29 @@
+@import 'vars';
+$border: .05em solid $light;
+$bgdiameter: 15em;
+$posmid: $bgdiameter / 10;
+$pos: $bgdiameter / 4;
+
+
+
+.background{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+
+
+
+    @media only screen and (max-width: 650px) {
+        img{
+            max-width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 650px) {
+        img{
+            max-width: 70%;
+        }
+    }
+}

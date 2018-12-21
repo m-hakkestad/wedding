@@ -1,0 +1,18 @@
+@import 'vars';
+
+.App-body{
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 100%;
+
+        .bread-text{
+            textAlignVertical: "center";
+            textAlign: "center";
+            font-size: 1.5em;
+            font-family: $textFont;
+            font-weight: 400;
+            .bold{
+                font-weight: 700;
+            }
+        }
+}

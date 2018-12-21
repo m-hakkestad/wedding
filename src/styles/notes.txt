@@ -1,0 +1,85 @@
+@import 'vars';
+$border: .05em solid $light;
+$bgdiameter: 15em;
+$posmid: $bgdiameter / 10;
+$pos: $bgdiameter / 4;
+
+
+
+.background{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    .bg-one{
+        position: relative;
+        border: $border;
+        width: $bgdiameter;
+        height: $bgdiameter;
+        border-radius: $bgdiameter / 2;
+        &:before{
+            position: absolute;
+            z-index: -1;
+            border: $border;
+            width: .5 * $bgdiameter;
+            height: .5 * $bgdiameter;
+            border-radius: .5 * $bgdiameter / 2;
+            content: "";
+            top: $pos;
+            left: $pos;
+            right: $pos;
+            bottom:$pos;
+        }
+
+        &:after{
+            position: absolute;
+            z-index: -1;
+            border: $border;
+            width: .8 * $bgdiameter;
+            height: .8 * $bgdiameter;
+            border-radius: 1.5 * $bgdiameter / 2;
+            content: " ";
+            top: $posmid;
+            left: $posmid;
+            right: $posmid;
+            bottom: $posmid;
+        }
+    }
+
+    .bg-two{
+        margin-left: -4.5em;
+        position: relative;
+        border: $border;
+        width: $bgdiameter;
+        height: $bgdiameter;
+        border-radius: $bgdiameter / 2;
+        &:before{
+            position: absolute;
+            z-index: -1;
+            border: $border;
+            width: .5 * $bgdiameter;
+            height: .5 * $bgdiameter;
+            border-radius: .5 * $bgdiameter / 2;
+            content: "";
+            top: $pos;
+            left: $pos;
+            right: $pos;
+            bottom:$pos;
+        }
+
+        &:after{
+            position: absolute;
+            z-index: -1;
+            border: $border;
+            width: .8 * $bgdiameter;
+            height: .8 * $bgdiameter;
+            border-radius: 1.5 * $bgdiameter / 2;
+            content: " ";
+            top: $posmid;
+            left: $posmid;
+            right: $posmid;
+            bottom: $posmid;
+        }
+    }
+}

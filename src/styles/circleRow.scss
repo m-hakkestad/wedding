@@ -1,0 +1,57 @@
+@import 'vars';
+
+$sdiameter: 2em;
+$bdiameter: 5em;
+
+.circle-row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+
+    @media only screen and (max-width: 650px) {
+        .circle{
+          width: $sdiameter;
+          height: $sdiameter;
+          border-radius: $sdiameter / 2;
+          margin-top: 1em;
+        }
+    }
+
+    @media only screen and (min-width: 650px) {
+        .circle{
+          width: $bdiameter;
+          height: $bdiameter;
+          border-radius: $bdiameter / 2;
+          margin-top: 1em;
+        }
+    }
+
+    .red{
+        background: $red;
+    }
+
+    .orange{
+        background: $orange;
+    }
+
+    .yellow{
+       background: $yellow;
+    }
+
+    .green{
+        background: $green;
+    }
+
+    .blue{
+        background: $blue;
+    }
+
+    .purple{
+        background: $purple;
+    }
+
+    .pink{
+        background: $pink;
+    }
+}
