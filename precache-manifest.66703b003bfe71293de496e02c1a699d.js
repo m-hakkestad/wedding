@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e7a500e02e870878a859",
+    "revision": "9f36af05f31136175d7e",
     "url": "/wedding/static/css/main.5fa5d528.chunk.css"
   },
   {
-    "revision": "e7a500e02e870878a859",
-    "url": "/wedding/static/js/main.e7a500e0.chunk.js"
+    "revision": "9f36af05f31136175d7e",
+    "url": "/wedding/static/js/main.9f36af05.chunk.js"
   },
   {
     "revision": "9f04e47878a39bde2259",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/wedding/static/media/m_m.2b7ed560.png"
   },
   {
-    "revision": "e00d476286941c97dc8a8f4cd4ad1e08",
+    "revision": "901424ed9a5467f42925e4dfcbbd218e",
     "url": "/wedding/index.html"
   }
 ];
