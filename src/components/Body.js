@@ -14,6 +14,7 @@ class Header extends Component {
                 MICHAELA OCH MÅRTENS BRÖLLOP!{'\n'}{'\n'}
                 </Text>
                 05.09.2020{'\n'}
+                Stuvstakyrkan{'\n'}
                 Ekeby loge{'\n'}
                 </Text>
         </div>
